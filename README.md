@@ -1,4 +1,4 @@
-## Installation
+🚀 ## Installation
 
 1. Clone the repository:
 ```bash
@@ -25,7 +25,7 @@ npm run dev
 
 ---
 
-### 📡 Connect & Follow me
+## 📡 Connect & Follow me
 
 * 💻 **GitHub**: [github.com/LePhiAnhDev](https://github.com/LePhiAnhDev)
 * 🌐 **Website**: [lephianhdev.github.io/Portfolio-Page](https://lephianhdev.github.io/Portfolio-Page)
@@ -35,7 +35,7 @@ npm run dev
 
 ---
 
-### 💰 Support This Project
+## 💰 Support This Project
 If you find this project useful, consider supporting the developer:
 - **Local Bank**: 1039506134 | LE PHI ANH | Vietcombank
 - **MoMo**: 0971390849 | LE PHI ANH
