@@ -1,0 +1,282 @@
+2025-06-30 11:59:23,931 - __main__ - INFO - 🚀 Starting AI Generator Server on 0.0.0.0:8000 (debug=True)...
+2025-06-30 11:59:29,669 - server - INFO - 🚀 Starting AI Generator Server
+2025-06-30 12:00:32,974 - server - INFO - 📨 GET /models/status
+2025-06-30 12:00:32,975 - server - INFO - ✅ GET /models/status - 0.001s
+2025-06-30 12:00:32,978 - server - INFO - 📨 GET /models/status
+2025-06-30 12:00:32,979 - server - INFO - ✅ GET /models/status - 0.001s
+2025-06-30 12:00:34,606 - server - INFO - 📨 OPTIONS /models/load
+2025-06-30 12:00:34,606 - server - INFO - ✅ OPTIONS /models/load - 0.000s
+2025-06-30 12:00:34,610 - server - INFO - 📨 POST /models/load
+2025-06-30 12:00:34,611 - server - INFO - 📥 Loading model: generative_art
+2025-06-30 12:00:34,616 - model_manager - INFO - 🚀 Loading model: generative_art
+2025-06-30 12:00:34,617 - model_manager - INFO - 📊 Initial: GPU Memory: 0.00GB/8.00GB allocated, 0.00GB cached, 8.00GB free
+2025-06-30 12:00:34,617 - model_manager - INFO - 📋 Currently loaded models: []
+2025-06-30 12:00:34,617 - model_manager - INFO - 🧹 Clearing all GPU memory before loading...
+2025-06-30 12:00:34,713 - model_manager - INFO - 🧹 GPU memory cleared aggressively
+2025-06-30 12:00:34,713 - model_manager - INFO - 🗑️ Unloading all existing models...
+2025-06-30 12:00:34,804 - model_manager - INFO - 🧹 GPU memory cleared aggressively
+2025-06-30 12:00:34,804 - model_manager - INFO - 📊 After clearing: GPU Memory: 0.00GB/8.00GB allocated, 0.00GB cached, 8.00GB free
+2025-06-30 12:00:34,805 - model_manager - INFO - 🔍 Memory Check for generative_art:
+2025-06-30 12:00:34,805 - model_manager - INFO -    Required: 2.44GB
+2025-06-30 12:00:34,805 - model_manager - INFO -    Current allocated: 0.00GB
+2025-06-30 12:00:34,805 - model_manager - INFO -    Max limit: 6.35GB
+2025-06-30 12:00:34,806 - model_manager - INFO -    GPU Memory: 0.00GB/8.00GB allocated, 0.00GB cached, 8.00GB free
+2025-06-30 12:00:34,806 - model_manager - INFO -    Free GPU memory: 8.00GB
+2025-06-30 12:00:34,806 - model_manager - INFO - ✅ Allowing generative_art - enough free memory for art generation
+2025-06-30 12:00:34,806 - model_manager - INFO - 🎨 Loading Generative Art model...
+2025-06-30 12:00:34,899 - model_manager - INFO - 🧹 GPU memory cleared aggressively
+2025-06-30 12:00:34,900 - model_manager - INFO - 📊 Pre-load: GPU Memory: 0.00GB/8.00GB allocated, 0.00GB cached, 8.00GB free
+2025-06-30 12:00:40,457 - model_manager - INFO - 📊 Pre-device: GPU Memory: 0.00GB/8.00GB allocated, 0.00GB cached, 8.00GB free
+2025-06-30 12:00:41,012 - model_manager - INFO - 📊 Post-device: GPU Memory: 2.01GB/8.00GB allocated, 2.06GB cached, 5.99GB free
+2025-06-30 12:00:41,012 - model_manager - INFO - ✅ Generative Art model loaded in 6.21s
+2025-06-30 12:00:41,012 - model_manager - INFO - ✅ Model generative_art loaded successfully in 6.40s
+2025-06-30 12:00:41,013 - model_manager - INFO - 📊 Final: GPU Memory: 2.01GB/8.00GB allocated, 2.06GB cached, 5.99GB free
+2025-06-30 12:00:41,013 - server - INFO - ✅ POST /models/load - 6.403s
+2025-06-30 12:00:41,018 - server - INFO - 📨 GET /models/status
+2025-06-30 12:00:41,019 - server - INFO - ✅ GET /models/status - 0.001s
+2025-06-30 12:01:07,221 - server - INFO - 📨 OPTIONS /generate-art
+2025-06-30 12:01:07,222 - server - INFO - ✅ OPTIONS /generate-art - 0.001s
+2025-06-30 12:01:07,225 - server - INFO - 📨 POST /generate-art
+2025-06-30 12:01:07,227 - server - INFO - 🎨 Art generation request: A futuristic mechanical dragon soaring through a s...
+2025-06-30 12:01:07,329 - model_manager - INFO - 🧹 GPU memory cleared aggressively
+2025-06-30 12:01:07,330 - generative_service - INFO - 📊 Pre-generation: GPU Memory: 2.01GB/8.00GB allocated, 2.06GB cached, 5.99GB free
+2025-06-30 12:01:07,330 - model_manager - INFO - 🚀 Loading model: generative_art
+2025-06-30 12:01:07,331 - model_manager - INFO - 📊 Initial: GPU Memory: 2.01GB/8.00GB allocated, 2.06GB cached, 5.99GB free
+2025-06-30 12:01:07,331 - model_manager - INFO - 📋 Currently loaded models: ['generative_art']
+2025-06-30 12:01:07,331 - model_manager - INFO - ✅ Model generative_art already loaded, skipping
+2025-06-30 12:01:07,332 - generative_service - INFO - 🎨 Generating art with prompt: A futuristic mechanical dragon soaring through a smoky cyberpunk city at night, glowing red eyes, chrome-plated armor, gears and wires exposed, wings made of metal blades, sparks flying from its joints, highly detailed, sci-fi concept art, cinematic lighting, by H.R. Giger and Syd Mead
+2025-06-30 12:01:16,495 - generative_service - INFO - ✅ Art generated in 9.27s
+2025-06-30 12:01:16,495 - generative_service - INFO - 📊 Final: GPU Memory: 2.02GB/8.00GB allocated, 2.06GB cached, 5.98GB free
+2025-06-30 12:01:16,499 - server - INFO - ✅ POST /generate-art - 9.274s
+2025-06-30 12:04:04,385 - __main__ - INFO - 🚀 Starting AI Generator Server on 0.0.0.0:8000 (debug=True)...
+2025-06-30 12:04:10,278 - server - INFO - 🚀 Starting AI Generator Server
+2025-06-30 12:04:21,052 - server - INFO - 📨 GET /models/status
+2025-06-30 12:04:21,053 - server - INFO - ✅ GET /models/status - 0.001s
+2025-06-30 12:04:21,056 - server - INFO - 📨 GET /models/status
+2025-06-30 12:04:21,056 - server - INFO - ✅ GET /models/status - 0.000s
+2025-06-30 12:04:24,771 - server - INFO - 📨 POST /models/load
+2025-06-30 12:04:24,773 - server - INFO - 📥 Loading model: generative_art
+2025-06-30 12:04:24,775 - model_manager - INFO - 🚀 Loading model: generative_art
+2025-06-30 12:04:24,775 - model_manager - INFO - 📊 Initial: GPU Memory: 0.00GB/8.00GB allocated, 0.00GB cached, 8.00GB free
+2025-06-30 12:04:24,776 - model_manager - INFO - 📋 Currently loaded models: []
+2025-06-30 12:04:24,776 - model_manager - INFO - 🧹 Clearing all GPU memory before loading...
+2025-06-30 12:04:24,874 - model_manager - INFO - 🧹 GPU memory cleared aggressively
+2025-06-30 12:04:24,875 - model_manager - INFO - 🗑️ Unloading all existing models...
+2025-06-30 12:04:24,977 - model_manager - INFO - 🧹 GPU memory cleared aggressively
+2025-06-30 12:04:24,977 - model_manager - INFO - 📊 After clearing: GPU Memory: 0.00GB/8.00GB allocated, 0.00GB cached, 8.00GB free
+2025-06-30 12:04:24,978 - model_manager - INFO - 🔍 Memory Check for generative_art:
+2025-06-30 12:04:24,978 - model_manager - INFO -    Required: 2.44GB
+2025-06-30 12:04:24,978 - model_manager - INFO -    Current allocated: 0.00GB
+2025-06-30 12:04:24,978 - model_manager - INFO -    Max limit: 6.35GB
+2025-06-30 12:04:24,978 - model_manager - INFO -    GPU Memory: 0.00GB/8.00GB allocated, 0.00GB cached, 8.00GB free
+2025-06-30 12:04:24,978 - model_manager - INFO -    Free GPU memory: 8.00GB
+2025-06-30 12:04:24,980 - model_manager - INFO - ✅ Allowing generative_art - enough free memory for art generation
+2025-06-30 12:04:24,980 - model_manager - INFO - 🎨 Loading Generative Art model...
+2025-06-30 12:04:25,081 - model_manager - INFO - 🧹 GPU memory cleared aggressively
+2025-06-30 12:04:25,082 - model_manager - INFO - 📊 Pre-load: GPU Memory: 0.00GB/8.00GB allocated, 0.00GB cached, 8.00GB free
+2025-06-30 12:04:28,801 - model_manager - INFO - 📊 Pre-device: GPU Memory: 0.00GB/8.00GB allocated, 0.00GB cached, 8.00GB free
+2025-06-30 12:04:29,417 - model_manager - INFO - 📊 Post-device: GPU Memory: 2.01GB/8.00GB allocated, 2.06GB cached, 5.99GB free
+2025-06-30 12:04:29,417 - model_manager - INFO - ✅ Generative Art model loaded in 4.44s
+2025-06-30 12:04:29,418 - model_manager - INFO - ✅ Model generative_art loaded successfully in 4.64s
+2025-06-30 12:04:29,418 - model_manager - INFO - 📊 Final: GPU Memory: 2.01GB/8.00GB allocated, 2.06GB cached, 5.99GB free
+2025-06-30 12:04:29,419 - server - INFO - ✅ POST /models/load - 4.649s
+2025-06-30 12:04:29,424 - server - INFO - 📨 GET /models/status
+2025-06-30 12:04:29,426 - server - INFO - ✅ GET /models/status - 0.002s
+2025-06-30 12:05:08,098 - server - INFO - 📨 POST /generate-art
+2025-06-30 12:05:08,102 - server - INFO - 🎨 Art generation request: A futuristic mechanical dragon soaring through a s...
+2025-06-30 12:05:08,206 - model_manager - INFO - 🧹 GPU memory cleared aggressively
+2025-06-30 12:05:08,207 - generative_service - INFO - 📊 Pre-generation: GPU Memory: 2.01GB/8.00GB allocated, 2.06GB cached, 5.99GB free
+2025-06-30 12:05:08,207 - model_manager - INFO - 🚀 Loading model: generative_art
+2025-06-30 12:05:08,207 - model_manager - INFO - 📊 Initial: GPU Memory: 2.01GB/8.00GB allocated, 2.06GB cached, 5.99GB free
+2025-06-30 12:05:08,208 - model_manager - INFO - 📋 Currently loaded models: ['generative_art']
+2025-06-30 12:05:08,208 - model_manager - INFO - ✅ Model generative_art already loaded, skipping
+2025-06-30 12:05:08,208 - generative_service - INFO - 🎨 Generating art with prompt: A futuristic mechanical dragon soaring through a smoky cyberpunk city at night, glowing red eyes, chrome-plated armor, gears and wires exposed, wings made of metal blades, sparks flying from its joints, highly detailed, sci-fi concept art, cinematic lighting, by H.R. Giger and Syd Mead
+2025-06-30 12:05:18,603 - generative_service - INFO - ✅ Art generated in 10.50s
+2025-06-30 12:05:18,603 - generative_service - INFO - 📊 Final: GPU Memory: 2.02GB/8.00GB allocated, 2.06GB cached, 5.98GB free
+2025-06-30 12:05:18,607 - server - INFO - ✅ POST /generate-art - 10.509s
+2025-06-30 12:05:27,230 - server - INFO - 📨 OPTIONS /models/unload
+2025-06-30 12:05:27,230 - server - INFO - ✅ OPTIONS /models/unload - 0.000s
+2025-06-30 12:05:27,236 - server - INFO - 📨 POST /models/unload
+2025-06-30 12:05:27,237 - server - INFO - 📥 Unloading model: generative_art
+2025-06-30 12:05:27,369 - model_manager - INFO - 🧹 GPU memory cleared aggressively
+2025-06-30 12:05:27,370 - model_manager - INFO - ✅ Unloaded model: generative_art
+2025-06-30 12:05:27,370 - model_manager - INFO - 📊 GPU Memory: 0.01GB/8.00GB allocated, 0.02GB cached, 7.99GB free
+2025-06-30 12:05:27,370 - server - INFO - ✅ Model generative_art unloaded successfully
+2025-06-30 12:05:27,370 - server - INFO - ✅ POST /models/unload - 0.135s
+2025-06-30 12:05:27,376 - server - INFO - 📨 GET /models/status
+2025-06-30 12:05:27,377 - server - INFO - ✅ GET /models/status - 0.001s
+2025-06-30 12:06:54,559 - __main__ - INFO - 🚀 Starting AI Generator Server on 0.0.0.0:8000 (debug=True)...
+2025-06-30 12:07:00,506 - server - INFO - 🚀 Starting AI Generator Server
+2025-06-30 12:07:26,731 - __main__ - INFO - 🚀 Starting AI Generator Server on 0.0.0.0:8000 (debug=True)...
+2025-06-30 12:07:32,581 - server - INFO - 🚀 Starting AI Generator Server
+2025-06-30 12:07:43,245 - server - INFO - 📨 GET /models/status
+2025-06-30 12:07:43,247 - server - INFO - ✅ GET /models/status - 0.002s
+2025-06-30 12:07:43,250 - server - INFO - 📨 GET /models/status
+2025-06-30 12:07:43,251 - server - INFO - ✅ GET /models/status - 0.001s
+2025-06-30 12:07:46,195 - server - INFO - 📨 POST /models/load
+2025-06-30 12:07:46,198 - server - INFO - 📥 Loading model: generative_art
+2025-06-30 12:07:46,201 - model_manager - INFO - 🚀 Loading model: generative_art
+2025-06-30 12:07:46,201 - model_manager - INFO - 📊 Initial: GPU Memory: 0.00GB/8.00GB allocated, 0.00GB cached, 8.00GB free
+2025-06-30 12:07:46,201 - model_manager - INFO - 📋 Currently loaded models: []
+2025-06-30 12:07:46,201 - model_manager - INFO - 🧹 Clearing all GPU memory before loading...
+2025-06-30 12:07:46,299 - model_manager - INFO - 🧹 GPU memory cleared aggressively
+2025-06-30 12:07:46,299 - model_manager - INFO - 🗑️ Unloading all existing models...
+2025-06-30 12:07:46,394 - model_manager - INFO - 🧹 GPU memory cleared aggressively
+2025-06-30 12:07:46,395 - model_manager - INFO - 📊 After clearing: GPU Memory: 0.00GB/8.00GB allocated, 0.00GB cached, 8.00GB free
+2025-06-30 12:07:46,395 - model_manager - INFO - 🔍 Memory Check for generative_art:
+2025-06-30 12:07:46,396 - model_manager - INFO -    Required: 2.44GB
+2025-06-30 12:07:46,396 - model_manager - INFO -    Current allocated: 0.00GB
+2025-06-30 12:07:46,396 - model_manager - INFO -    Max limit: 6.35GB
+2025-06-30 12:07:46,396 - model_manager - INFO -    GPU Memory: 0.00GB/8.00GB allocated, 0.00GB cached, 8.00GB free
+2025-06-30 12:07:46,397 - model_manager - INFO -    Free GPU memory: 8.00GB
+2025-06-30 12:07:46,397 - model_manager - INFO - ✅ Allowing generative_art - enough free memory for art generation
+2025-06-30 12:07:46,397 - model_manager - INFO - 🎨 Loading Generative Art model...
+2025-06-30 12:07:46,500 - model_manager - INFO - 🧹 GPU memory cleared aggressively
+2025-06-30 12:07:46,500 - model_manager - INFO - 📊 Pre-load: GPU Memory: 0.00GB/8.00GB allocated, 0.00GB cached, 8.00GB free
+2025-06-30 12:07:48,525 - model_manager - INFO - 📊 Pre-device: GPU Memory: 0.00GB/8.00GB allocated, 0.00GB cached, 8.00GB free
+2025-06-30 12:07:49,157 - model_manager - INFO - 📊 Post-device: GPU Memory: 2.01GB/8.00GB allocated, 2.06GB cached, 5.99GB free
+2025-06-30 12:07:49,157 - model_manager - INFO - ✅ Generative Art model loaded in 2.76s
+2025-06-30 12:07:49,586 - model_manager - INFO - ✅ Model generative_art loaded successfully in 2.96s
+2025-06-30 12:07:49,586 - model_manager - INFO - 📊 Final: GPU Memory: 2.01GB/8.00GB allocated, 2.06GB cached, 5.99GB free
+2025-06-30 12:07:49,587 - server - INFO - ✅ POST /models/load - 3.392s
+2025-06-30 12:07:49,593 - server - INFO - 📨 GET /models/status
+2025-06-30 12:07:49,593 - server - INFO - ✅ GET /models/status - 0.001s
+2025-06-30 12:07:56,289 - server - INFO - 📨 POST /generate-art
+2025-06-30 12:07:56,293 - server - INFO - 🎨 Art generation request: A futuristic mechanical dragon soaring through a s...
+2025-06-30 12:07:56,402 - model_manager - INFO - 🧹 GPU memory cleared aggressively
+2025-06-30 12:07:56,403 - generative_service - INFO - 📊 Pre-generation: GPU Memory: 2.01GB/8.00GB allocated, 2.06GB cached, 5.99GB free
+2025-06-30 12:07:56,404 - model_manager - INFO - 🚀 Loading model: generative_art
+2025-06-30 12:07:56,404 - model_manager - INFO - 📊 Initial: GPU Memory: 2.01GB/8.00GB allocated, 2.06GB cached, 5.99GB free
+2025-06-30 12:07:56,404 - model_manager - INFO - 📋 Currently loaded models: ['generative_art']
+2025-06-30 12:07:56,404 - model_manager - INFO - ✅ Model generative_art already loaded, skipping
+2025-06-30 12:07:56,405 - generative_service - INFO - 🎨 Generating art with prompt: A futuristic mechanical dragon soaring through a smoky cyberpunk city at night, glowing red eyes, chrome-plated armor, gears and wires exposed, wings made of metal blades, sparks flying from its joints, highly detailed, sci-fi concept art, cinematic lighting, by H.R. Giger and Syd Mead
+2025-06-30 12:08:06,905 - generative_service - INFO - ✅ Art generated in 10.61s
+2025-06-30 12:08:06,905 - generative_service - INFO - 📊 Final: GPU Memory: 2.02GB/8.00GB allocated, 2.06GB cached, 5.98GB free
+2025-06-30 12:08:06,909 - server - INFO - ✅ POST /generate-art - 10.620s
+2025-06-30 12:08:23,397 - server - INFO - 📨 POST /models/load
+2025-06-30 12:08:23,398 - server - INFO - 📥 Loading model: generative_video
+2025-06-30 12:08:23,399 - model_manager - INFO - 🚀 Loading model: generative_video
+2025-06-30 12:08:23,399 - model_manager - INFO - 📊 Initial: GPU Memory: 2.02GB/8.00GB allocated, 2.06GB cached, 5.98GB free
+2025-06-30 12:08:23,399 - model_manager - INFO - 📋 Currently loaded models: ['generative_art']
+2025-06-30 12:08:23,399 - model_manager - INFO - 🧹 Clearing all GPU memory before loading...
+2025-06-30 12:08:23,492 - model_manager - INFO - 🧹 GPU memory cleared aggressively
+2025-06-30 12:08:23,492 - model_manager - INFO - 🗑️ Unloading all existing models...
+2025-06-30 12:08:23,624 - model_manager - INFO - 🧹 GPU memory cleared aggressively
+2025-06-30 12:08:23,625 - model_manager - INFO - ✅ Unloaded model: generative_art
+2025-06-30 12:08:23,625 - model_manager - INFO - 📊 GPU Memory: 0.01GB/8.00GB allocated, 0.02GB cached, 7.99GB free
+2025-06-30 12:08:23,723 - model_manager - INFO - 🧹 GPU memory cleared aggressively
+2025-06-30 12:08:23,723 - model_manager - INFO - 📊 After clearing: GPU Memory: 0.01GB/8.00GB allocated, 0.02GB cached, 7.99GB free
+2025-06-30 12:08:23,724 - model_manager - INFO - 🔍 Memory Check for generative_video:
+2025-06-30 12:08:23,725 - model_manager - INFO -    Required: 4.39GB
+2025-06-30 12:08:23,725 - model_manager - INFO -    Current allocated: 0.01GB
+2025-06-30 12:08:23,725 - model_manager - INFO -    Max limit: 6.35GB
+2025-06-30 12:08:23,725 - model_manager - INFO -    GPU Memory: 0.01GB/8.00GB allocated, 0.02GB cached, 7.99GB free
+2025-06-30 12:08:23,725 - model_manager - INFO -    Free GPU memory: 7.99GB
+2025-06-30 12:08:23,726 - model_manager - INFO - ✅ Allowing generative_video - enough free memory
+2025-06-30 12:08:23,726 - model_manager - INFO - 🎬 Loading Generative Video model...
+2025-06-30 12:08:46,803 - model_manager - INFO - ✅ Generative Video model loaded in 23.08s
+2025-06-30 12:08:46,804 - model_manager - INFO - ✅ Model generative_video loaded successfully in 23.41s
+2025-06-30 12:08:46,804 - model_manager - INFO - 📊 Final: GPU Memory: 3.74GB/8.00GB allocated, 3.81GB cached, 4.26GB free
+2025-06-30 12:08:46,805 - server - INFO - ✅ POST /models/load - 23.409s
+2025-06-30 12:09:11,241 - __main__ - INFO - 🚀 Starting AI Generator Server on 0.0.0.0:8000 (debug=True)...
+2025-06-30 12:09:17,404 - server - INFO - 🚀 Starting AI Generator Server
+2025-06-30 12:09:58,633 - __main__ - INFO - 🚀 Starting AI Generator Server on 0.0.0.0:8000 (debug=True)...
+2025-06-30 12:10:04,881 - server - INFO - 🚀 Starting AI Generator Server
+2025-06-30 12:10:16,200 - server - INFO - 📨 GET /models/status
+2025-06-30 12:10:16,201 - server - INFO - ✅ GET /models/status - 0.001s
+2025-06-30 12:10:16,205 - server - INFO - 📨 GET /models/status
+2025-06-30 12:10:16,205 - server - INFO - ✅ GET /models/status - 0.000s
+2025-06-30 12:10:19,075 - server - INFO - 📨 POST /models/load
+2025-06-30 12:10:19,077 - server - INFO - 📥 Loading model: generative_art
+2025-06-30 12:10:19,080 - model_manager - INFO - 🚀 Loading model: generative_art
+2025-06-30 12:10:19,081 - model_manager - INFO - 📊 Initial: GPU Memory: 0.00GB/8.00GB allocated, 0.00GB cached, 8.00GB free
+2025-06-30 12:10:19,081 - model_manager - INFO - 📋 Currently loaded models: []
+2025-06-30 12:10:19,081 - model_manager - INFO - 🧹 Clearing all GPU memory before loading...
+2025-06-30 12:10:19,172 - model_manager - INFO - 🧹 GPU memory cleared aggressively
+2025-06-30 12:10:19,172 - model_manager - INFO - 🗑️ Unloading all existing models...
+2025-06-30 12:10:19,263 - model_manager - INFO - 🧹 GPU memory cleared aggressively
+2025-06-30 12:10:19,264 - model_manager - INFO - 📊 After clearing: GPU Memory: 0.00GB/8.00GB allocated, 0.00GB cached, 8.00GB free
+2025-06-30 12:10:19,264 - model_manager - INFO - 🔍 Memory Check for generative_art:
+2025-06-30 12:10:19,264 - model_manager - INFO -    Required: 2.44GB
+2025-06-30 12:10:19,265 - model_manager - INFO -    Current allocated: 0.00GB
+2025-06-30 12:10:19,265 - model_manager - INFO -    Max limit: 6.35GB
+2025-06-30 12:10:19,265 - model_manager - INFO -    GPU Memory: 0.00GB/8.00GB allocated, 0.00GB cached, 8.00GB free
+2025-06-30 12:10:19,265 - model_manager - INFO -    Free GPU memory: 8.00GB
+2025-06-30 12:10:19,265 - model_manager - INFO - ✅ Allowing generative_art - enough free memory for art generation
+2025-06-30 12:10:19,266 - model_manager - INFO - 🎨 Loading Generative Art model...
+2025-06-30 12:10:19,366 - model_manager - INFO - 🧹 GPU memory cleared aggressively
+2025-06-30 12:10:19,367 - model_manager - INFO - 📊 Pre-load: GPU Memory: 0.00GB/8.00GB allocated, 0.00GB cached, 8.00GB free
+2025-06-30 12:10:22,756 - model_manager - INFO - 📊 Pre-device: GPU Memory: 0.00GB/8.00GB allocated, 0.00GB cached, 8.00GB free
+2025-06-30 12:10:23,408 - model_manager - INFO - 📊 Post-device: GPU Memory: 2.01GB/8.00GB allocated, 2.06GB cached, 5.99GB free
+2025-06-30 12:10:23,409 - model_manager - INFO - ✅ Generative Art model loaded in 4.14s
+2025-06-30 12:10:23,409 - model_manager - INFO - ✅ Model generative_art loaded successfully in 4.33s
+2025-06-30 12:10:23,409 - model_manager - INFO - 📊 Final: GPU Memory: 2.01GB/8.00GB allocated, 2.06GB cached, 5.99GB free
+2025-06-30 12:10:23,410 - server - INFO - ✅ POST /models/load - 4.335s
+2025-06-30 12:10:23,416 - server - INFO - 📨 GET /models/status
+2025-06-30 12:10:23,417 - server - INFO - ✅ GET /models/status - 0.001s
+2025-06-30 12:10:27,383 - server - INFO - 📨 POST /generate-art
+2025-06-30 12:10:27,386 - server - INFO - 🎨 Art generation request: A futuristic mechanical dragon soaring through a s...
+2025-06-30 12:10:27,496 - model_manager - INFO - 🧹 GPU memory cleared aggressively
+2025-06-30 12:10:27,496 - generative_service - INFO - 📊 Pre-generation: GPU Memory: 2.01GB/8.00GB allocated, 2.06GB cached, 5.99GB free
+2025-06-30 12:10:27,497 - model_manager - INFO - 🚀 Loading model: generative_art
+2025-06-30 12:10:27,497 - model_manager - INFO - 📊 Initial: GPU Memory: 2.01GB/8.00GB allocated, 2.06GB cached, 5.99GB free
+2025-06-30 12:10:27,497 - model_manager - INFO - 📋 Currently loaded models: ['generative_art']
+2025-06-30 12:10:27,497 - model_manager - INFO - ✅ Model generative_art already loaded, skipping
+2025-06-30 12:10:27,498 - generative_service - INFO - 🎨 Generating art with prompt: A futuristic mechanical dragon soaring through a smoky cyberpunk city at night, glowing red eyes, chrome-plated armor, gears and wires exposed, wings made of metal blades, sparks flying from its joints, highly detailed, sci-fi concept art, cinematic lighting, by H.R. Giger and Syd Mead
+2025-06-30 12:10:37,739 - generative_service - INFO - ✅ Art generated in 10.35s
+2025-06-30 12:10:37,739 - generative_service - INFO - 📊 Final: GPU Memory: 2.02GB/8.00GB allocated, 2.06GB cached, 5.98GB free
+2025-06-30 12:10:37,745 - server - INFO - ✅ POST /generate-art - 10.362s
+2025-06-30 12:10:40,705 - server - INFO - 📨 POST /models/unload
+2025-06-30 12:10:40,707 - server - INFO - 📥 Unloading model: generative_art
+2025-06-30 12:10:40,831 - model_manager - INFO - 🧹 GPU memory cleared aggressively
+2025-06-30 12:10:40,831 - model_manager - INFO - ✅ Unloaded model: generative_art
+2025-06-30 12:10:40,832 - model_manager - INFO - 📊 GPU Memory: 0.01GB/8.00GB allocated, 0.02GB cached, 7.99GB free
+2025-06-30 12:10:40,832 - server - INFO - ✅ Model generative_art unloaded successfully
+2025-06-30 12:10:40,832 - server - INFO - ✅ POST /models/unload - 0.127s
+2025-06-30 12:10:40,837 - server - INFO - 📨 GET /models/status
+2025-06-30 12:10:40,839 - server - INFO - ✅ GET /models/status - 0.002s
+2025-06-30 12:10:44,851 - server - INFO - 📨 OPTIONS /models/load
+2025-06-30 12:10:44,851 - server - INFO - ✅ OPTIONS /models/load - 0.000s
+2025-06-30 12:10:44,855 - server - INFO - 📨 POST /models/load
+2025-06-30 12:10:44,857 - server - INFO - 📥 Loading model: generative_video
+2025-06-30 12:10:44,857 - model_manager - INFO - 🚀 Loading model: generative_video
+2025-06-30 12:10:44,857 - model_manager - INFO - 📊 Initial: GPU Memory: 0.01GB/8.00GB allocated, 0.02GB cached, 7.99GB free
+2025-06-30 12:10:44,858 - model_manager - INFO - 📋 Currently loaded models: []
+2025-06-30 12:10:44,858 - model_manager - INFO - 🧹 Clearing all GPU memory before loading...
+2025-06-30 12:10:44,963 - model_manager - INFO - 🧹 GPU memory cleared aggressively
+2025-06-30 12:10:44,963 - model_manager - INFO - 🗑️ Unloading all existing models...
+2025-06-30 12:10:45,056 - model_manager - INFO - 🧹 GPU memory cleared aggressively
+2025-06-30 12:10:45,057 - model_manager - INFO - 📊 After clearing: GPU Memory: 0.01GB/8.00GB allocated, 0.02GB cached, 7.99GB free
+2025-06-30 12:10:45,058 - model_manager - INFO - 🔍 Memory Check for generative_video:
+2025-06-30 12:10:45,058 - model_manager - INFO -    Required: 4.39GB
+2025-06-30 12:10:45,059 - model_manager - INFO -    Current allocated: 0.01GB
+2025-06-30 12:10:45,059 - model_manager - INFO -    Max limit: 6.35GB
+2025-06-30 12:10:45,059 - model_manager - INFO -    GPU Memory: 0.01GB/8.00GB allocated, 0.02GB cached, 7.99GB free
+2025-06-30 12:10:45,059 - model_manager - INFO -    Free GPU memory: 7.99GB
+2025-06-30 12:10:45,059 - model_manager - INFO - ✅ Allowing generative_video - enough free memory
+2025-06-30 12:10:45,059 - model_manager - INFO - 🎬 Loading Generative Video model...
+2025-06-30 12:11:04,193 - model_manager - INFO - ✅ Generative Video model loaded in 19.13s
+2025-06-30 12:11:04,193 - model_manager - INFO - ✅ Model generative_video loaded successfully in 19.34s
+2025-06-30 12:11:04,193 - model_manager - INFO - 📊 Final: GPU Memory: 3.74GB/8.00GB allocated, 3.81GB cached, 4.26GB free
+2025-06-30 12:11:04,193 - server - INFO - ✅ POST /models/load - 19.338s
+2025-06-30 12:11:04,204 - server - INFO - 📨 GET /models/status
+2025-06-30 12:11:04,205 - server - INFO - ✅ GET /models/status - 0.001s
+2025-06-30 12:11:10,382 - server - INFO - 📨 OPTIONS /generate-video
+2025-06-30 12:11:10,383 - server - INFO - ✅ OPTIONS /generate-video - 0.001s
+2025-06-30 12:11:10,387 - server - INFO - 📨 POST /generate-video
+2025-06-30 12:11:10,390 - server - INFO - 🎬 Video generation request: a handsome boy...
+2025-06-30 12:11:10,391 - model_manager - INFO - 🚀 Loading model: generative_video
+2025-06-30 12:11:10,391 - model_manager - INFO - 📊 Initial: GPU Memory: 3.74GB/8.00GB allocated, 3.81GB cached, 4.26GB free
+2025-06-30 12:11:10,392 - model_manager - INFO - 📋 Currently loaded models: ['generative_video']
+2025-06-30 12:11:10,392 - model_manager - INFO - ✅ Model generative_video already loaded, skipping
+2025-06-30 12:11:10,392 - generative_service - INFO - 🎬 Generating video with prompt: a handsome boy
+2025-06-30 12:14:47,793 - generative_service - INFO - 📁 Saving video to: D:\Project\AI Generative\server\videos\video_1751260487792.mp4
+2025-06-30 12:14:48,085 - generative_service - ERROR - Error saving video file: Could not find a backend to open `D:\Project\AI Generative\server\videos\video_1751260487792.mp4`` with iomode `w?`.
+Based on the extension, the following plugins might add capable backends:
+  FFMPEG:  pip install imageio[ffmpeg]
+  pyav:  pip install imageio[pyav]
+2025-06-30 12:14:48,086 - generative_service - INFO - ✅ Video generated in 217.70s
+2025-06-30 12:14:48,087 - server - INFO - ✅ Video generated successfully in 217.70s
+2025-06-30 12:14:48,087 - server - INFO - ✅ POST /generate-video - 217.701s
+2025-06-30 12:14:48,421 - server - INFO - 📨 GET /
+2025-06-30 12:14:48,421 - server - INFO - ✅ GET / - 0.000s
