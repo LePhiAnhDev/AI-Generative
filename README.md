@@ -2,7 +2,7 @@
 
 1. Clone the repository:
 ```bash
-git clone <repo-link>
+git clone https://github.com/LePhiAnhDev/AI-Generative.git
 cd Fintech-Blockchain-Hackathon
 ```
 
