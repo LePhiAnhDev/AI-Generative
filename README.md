@@ -6,7 +6,7 @@ git clone <repo-link>
 cd Fintech-Blockchain-Hackathon
 ```
 
-2. Install dependencies:
+2. Install and Run server:
 ```bash
 cd server
 python -m venv env
@@ -17,6 +17,7 @@ huggingface-cli login # paste your ACCESS TOKEN in HuggingFace
 python server.py
 ```
 
+3. Install and Run frontend:
 ```bash
 cd ../frontend
 npm install
